@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
@@ -51,11 +52,22 @@ public class MyAccessControlFilter extends AccessControlFilter {
     public boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
         String username = request.getParameter("crsKey");
         String signature = request.getParameter("signature");
-        signature = Base64Util.encode(signature);
         String type = request.getParameter("type");
+        type = type == null ? "user" : type;
+
+        if (username == null && signature == null) {
+            HttpServletRequest httpServletRequest = (HttpServletRequest) request;
+            String token = httpServletRequest.getHeader("token");
+            if (token != null && !token.isEmpty()) {
+                username = token.split(".")[0];
+                type = token.split(".")[1];
+                signature = token.split(".")[2];
+            }
+        }
+        signature = Base64Util.encode(signature);
 
 //验证用户和令牌的有效性
-        MyUsernamePasswordToken token = new MyUsernamePasswordToken(username, type == null ? "user" : type, signature);
+        MyUsernamePasswordToken token = new MyUsernamePasswordToken(username, type, signature);
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(token);
@@ -66,6 +78,8 @@ public class MyAccessControlFilter extends AccessControlFilter {
             return false;
         }
         log.info("登陆成功");
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+        httpResponse.setHeader("token", Base64Util.encode(username) + "." + Base64Util.encode(type) + "." + signature);
         return true;
     }
 
