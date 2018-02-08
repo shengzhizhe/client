@@ -5,7 +5,6 @@ import org.apache.shiro.session.SessionException;
 import org.apache.shiro.subject.Subject;
 import org.client.com.api.AccountInterface;
 import org.client.com.login.model.LoginModel;
-import org.client.com.util.redirect.RedirectUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,18 +28,18 @@ public class LoginController {
     @Autowired
     private AccountInterface loginInterface;
 
-    /**
-     * @param model  LoginModel
-     * @param result BindingResult
-     * @return ModelAndView
-     */
-    @PostMapping("/loginIn")
-    public ModelAndView loginIn(
-            @Valid @ModelAttribute("form") LoginModel model,
-            BindingResult result) {
-        RedirectUtil redirectUtil = new RedirectUtil();
-        return new ModelAndView(redirectUtil.getRedirect() + "/home/init");
-    }
+//    /**
+//     * @param model  LoginModel
+//     * @param result BindingResult
+//     * @return ModelAndView
+//     */
+//    @PostMapping("/loginIn")
+//    public ModelAndView loginIn(
+//            @Valid @ModelAttribute("form") LoginModel model,
+//            BindingResult result) {
+//        RedirectUtil redirectUtil = new RedirectUtil();
+//        return new ModelAndView(redirectUtil.getRedirect() + "/home/init");
+//    }
 
     @GetMapping("/logout")
     public void logout() {
