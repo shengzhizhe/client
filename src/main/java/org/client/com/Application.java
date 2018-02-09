@@ -34,6 +34,7 @@ public class Application {
                 .target(AccountInterface.class, "http://39.106.33.113:9002/account");
         return accountInterface;
     }
+
     // war
 //    @Override
 //    protected SpringApplicationBuilder configure(SpringApplicationBuilder
@@ -41,4 +42,5 @@ public class Application {
 //        // TODO Auto-generated method stub
 //        return builder.sources(Application.class);
 //    }
+
 }

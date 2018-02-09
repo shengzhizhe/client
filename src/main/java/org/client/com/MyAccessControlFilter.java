@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -19,7 +20,6 @@ import java.io.IOException;
 public class MyAccessControlFilter extends AccessControlFilter {
 
     private static final Logger log = LoggerFactory.getLogger(MyAccessControlFilter.class);
-
 
     /**
      * 表示是否允许访问；mappedValue就是[urls]配置中拦截器参数部分，如果允许访问返回true，否则false；
@@ -50,47 +50,85 @@ public class MyAccessControlFilter extends AccessControlFilter {
      */
     @Override
     public boolean onAccessDenied(ServletRequest request, ServletResponse response) throws Exception {
-        String username = request.getParameter("crsKey");
-        String signature = request.getParameter("signature");
-        String type = request.getParameter("type");
-        type = type == null ? "user" : type;
-
-        if (username == null && signature == null) {
-            HttpServletRequest httpServletRequest = (HttpServletRequest) request;
-            String token = httpServletRequest.getHeader("token");
-            if (token != null && !token.isEmpty()) {
-                username = token.split(".")[0];
-                type = token.split(".")[1];
-                signature = token.split(".")[2];
+        HttpServletRequest httpServletRequest = (HttpServletRequest) request;
+        Cookie[] cookies = httpServletRequest.getCookies();
+        String token_str = null;
+        for (int i = 0; i < cookies.length; i++) {
+            if (cookies[i].getName().equals("token")) {
+                token_str = cookies[i].getValue();
+                continue;
             }
         }
-        signature = Base64Util.encode(signature);
+        if (token_str == null || token_str.isEmpty()) {
+            onLoginFail(response, "请从新登录");
+            return false;
+        }
+        String[] split = token_str.split("_");
+        String uuid = split[0];
+        String account = split[1];
+        String times = split[2];
+        String author = split[3];
+        String type = split[4];
+        String pwd = split[5];
 
-//验证用户和令牌的有效性
-        MyUsernamePasswordToken token = new MyUsernamePasswordToken(username, type, signature);
+//            密钥是否是本系统签发
+        if (!"The survival of the dead".equals(Base64Util.decode(author))) {
+            onLoginFail(response, "非法的密匙");
+            return false;
+        }
+//        密钥是否过期
+        long now_times = System.currentTimeMillis();
+        if (times == null || times.isEmpty()) {
+            onLoginFail(response, "非法的密匙");
+            return false;
+        }
+        try {
+            String s = Base64Util.decode(times);
+            long my_times = Long.parseLong(s);
+            if (now_times - my_times > (5000 * 60 * 60)) {
+//                密钥过期
+                onLoginFail(response, "登录已过期，请从新登录");
+                return false;
+            }
+        } catch (Exception e) {
+//            无法转换long，确定密钥不是合法的
+            onLoginFail(response, "非法的密匙");
+            return false;
+        }
+
+//验证用户和令牌的有效性(此处应该根据uuid取缓存数据然后判断令牌时候有效)
+        MyUsernamePasswordToken token = new MyUsernamePasswordToken(Base64Util.decode(account),
+                Base64Util.decode(type),
+                pwd);
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(token);
         } catch (Exception e) {
-            log.info("登陆失败");
+            log.info("令牌验证失败，令牌错误");
             log.info(e.getMessage());
-            onLoginFail(response);
+            onLoginFail(response, "非法的密匙");
             return false;
         }
-        log.info("登陆成功");
-        HttpServletResponse httpResponse = (HttpServletResponse) response;
-        httpResponse.setHeader("token", Base64Util.encode(username) + "." + Base64Util.encode(type) + "." + signature);
+        log.info("令牌验证成功");
+        String times2 = Base64Util.encode(String.valueOf(System.currentTimeMillis()));
+        token_str = uuid + "_" + account + "_" + times2 + "_" + author + "_" + type + "_" + pwd;
+        Cookie cookie = new Cookie("token", token_str);
+        cookie.setPath("/");
+        cookie.setMaxAge(60);
+        HttpServletResponse httpServletResponse = (HttpServletResponse) response;
+        httpServletResponse.addCookie(cookie);
         return true;
     }
 
     /**
      * 登录失败
      */
-    private void onLoginFail(ServletResponse response) throws IOException {
+    private void onLoginFail(ServletResponse response, String message) throws IOException {
         log.info("设置返回");
         HttpServletResponse httpResponse = (HttpServletResponse) response;
         httpResponse.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-        httpResponse.getWriter().write("login error");
+        httpResponse.getWriter().write(message);
+        httpResponse.sendRedirect("/index");
     }
 
     /**

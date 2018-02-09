@@ -62,7 +62,7 @@ public class MyShiroRealm2 extends AuthorizingRealm {
         // 权限信息对象info,用来存放查出的用户的所有的角色（role）及权限（permission）
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
         //这里赋给两个不存在的值，使controller中的权限验证失败，验证在此失败会继续进入myShiroRealm2验证权限
-        info.addRole("admin");
+        info.addRole("user");
 //        for(Permission permission: permissions){
 //            System.out.println("permission:"+permission.getPermission());
 //            System.out.println("permission.getRoleName():"+permission.getRoleName());

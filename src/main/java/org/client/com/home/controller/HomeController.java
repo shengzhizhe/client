@@ -1,6 +1,5 @@
 package org.client.com.home.controller;
 
-import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,21 +14,9 @@ public class HomeController {
     /**
      * 登录后主页
      */
-    @RequiresAuthentication
     @RequestMapping("/init")
-    public ModelAndView init() throws Exception {
+    public ModelAndView init() {
         return new ModelAndView("/home/index");
-    }
-
-    /**
-     * 登录后首页
-     *
-     * @return
-     */
-    @RequiresAuthentication
-    @RequestMapping("/initSubpage")
-    public ModelAndView initSubpage() {
-        return new ModelAndView("/home/widgets");
     }
 
 }
