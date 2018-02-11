@@ -1,10 +1,8 @@
-package org.client.com.util.base64;
+package org.client.com.util.algorithm;
 
-public class Base64Test {
+public class Algorithm {
 
-    public static void main(String[] args) {
-        String str = "2018-01-01";
-//        String str = "ᔌᔁᔑᔇᔑᔙᔛᔒᔕᕅᕄᕅᕇ";
+    public String en(String str) {
         char[] c = str.toCharArray();
         for (int i = 0; i < c.length; i++) {
             c[i] = (char) (c[i] ^ 300);
@@ -15,6 +13,6 @@ public class Base64Test {
         for (int i = 0; i < c.length; i++) {
             c[i] = (char) (c[i] ^ 5000);
         }
-        System.out.println(new String(c));
+        return new String(c);
     }
 }
