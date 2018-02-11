@@ -162,4 +162,5 @@ public class ShiroConfiguration {
         modularRealmAuthenticator.setAuthenticationStrategy(new AtLeastOneSuccessfulStrategy());
         return modularRealmAuthenticator;
     }
+
 }

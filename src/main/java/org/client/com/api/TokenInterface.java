@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 public interface TokenInterface {
 
-    @Headers("Content-Type:application/json")
+    @Headers("Content-Type: application/json")
     @RequestLine("POST /token/token")
     ResponseResult<TokenModel> add(@Param("model") TokenModel model);
 

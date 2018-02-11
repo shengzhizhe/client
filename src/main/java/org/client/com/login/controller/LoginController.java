@@ -1,5 +1,6 @@
 package org.client.com.login.controller;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.SessionException;
 import org.apache.shiro.subject.Subject;
@@ -7,10 +8,8 @@ import org.client.com.MyUsernamePasswordToken;
 import org.client.com.api.AccountInterface;
 import org.client.com.api.TokenInterface;
 import org.client.com.login.model.LoginModel;
-import org.client.com.model.TokenModel;
 import org.client.com.util.base64.Base64Util;
 import org.client.com.util.redirect.RedirectUtil;
-import org.client.com.util.resultJson.ResponseResult;
 import org.client.com.util.uuidUtil.GetUuid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
@@ -65,26 +65,26 @@ public class LoginController {
             String tokens = GetUuid.getUUID();
             String author = "The survival of the dead";
             String type = "user";
+            long times = System.currentTimeMillis() + (1000 * 60 * 15);
 //单独加密
             tokens = Base64Util.encode(tokens);
             account = Base64Util.encode(account);
             author = Base64Util.encode(author);
             type = Base64Util.encode(type);
+            String endTimes = Base64Util.encode(times + "");
 
-            String token_str = tokens + "_" + account + "_" + author + "_" + type;
+            String token_str = tokens + "_" + account + "_" + author + "_" + type + "_" + endTimes;
 //            令牌存入数据库
-            TokenModel tokenModel = new TokenModel();
-            tokenModel.setAccount(account);
-            tokenModel.setEndTimes(System.currentTimeMillis() + (1000 * 60 * 15));
-            tokenModel.setIsUse("Y");
-            tokenModel.setToken(tokens);
-            ResponseResult<TokenModel> result1 = tkInterface.add(tokenModel);
-            if (!result1.isSuccess()) {
-                response.setHeader("message", "令牌出错");
-                return new ModelAndView(redirectUtil.getRedirect() + "/index");
-            }
-            Cookie cookie2 = new Cookie("token", null);
-            response.addCookie(cookie2);
+//            TokenModel tokenModel = new TokenModel();
+//            tokenModel.setAccount(account);
+//            tokenModel.setEndTimes(System.currentTimeMillis() + (1000 * 60 * 15));
+//            tokenModel.setIsUse("Y");
+//            tokenModel.setToken(tokens);
+//            ResponseResult<TokenModel> result1 = tkInterface.add(tokenModel);
+//            if (!result1.isSuccess()) {
+//                response.setHeader("message", "令牌出错");
+//                return new ModelAndView(redirectUtil.getRedirect() + "/index");
+//            }
             Cookie cookie = new Cookie("token", token_str);
             cookie.setPath("/");
             cookie.setMaxAge(60);
@@ -99,8 +99,26 @@ public class LoginController {
     }
 
     @GetMapping("/logout")
-    public void logout() {
+    public void logout(HttpServletRequest request,
+                       HttpServletResponse response) {
         try {
+            HttpServletRequest httpServletRequest = (HttpServletRequest) request;
+            Cookie[] cookies = httpServletRequest.getCookies();
+            String token_str = "";
+            for (int i = 0; i < cookies.length; i++) {
+                if (cookies[i].getName().equals("token")) {
+                    token_str = cookies[i].getValue();
+                    continue;
+                }
+            }
+            if (token_str != null && !token_str.isEmpty()) {
+                String[] split = token_str.split("_");
+                split[split.length - 1] = Base64Util.encode(System.currentTimeMillis() + "");
+                Cookie cookie = new Cookie("token", StringUtils.join(split, "_"));
+                cookie.setPath("/");
+                cookie.setMaxAge(60);
+                response.addCookie(cookie);
+            }
             Subject subject = SecurityUtils.getSubject();
             if (subject.isAuthenticated()) {
                 subject.logout();

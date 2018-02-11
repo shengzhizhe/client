@@ -2,12 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc79cac7-29dd-46fb-93bd-8ac1a7738122" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/about.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/contact.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/css/animate.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/css/jquery.mCustomScrollbar.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/css/settings.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/css/slick.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/arch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/arch2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/arch3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/bag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/banner3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/big-quotes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/black-cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/black-right-arrow-button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/btn-nxt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/btn-prv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/call-to-action-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/call-to-action-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/call-to-action.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/checked.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/circle-one.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/circle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/contact.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/cross.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/download-arrow-img.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/feature-icon-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/feature-icon-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/feature-icon-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/feature-icon-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/feature-icon-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/feature-icon-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/gallery8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/inner-banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/insta-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/latest-news-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/latest-news-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/latest-news-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/latest-news-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/latest-news-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/latest-news-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/marketing-innovation-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/marketing-innovation.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/nxt-arw-white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/nxt-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/opton-agency.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/port-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/port-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/port-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/port-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/port-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/pre-arw-white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/pre-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/process-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/quotes-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/quotes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/right-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/right-black-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/right-white-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/select-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/select-down-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/shoop-cart-dropdown-01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/shoop-cart-dropdown-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/sprite1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/team-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/team-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/team-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/team-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/team-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/team-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/top-nav-right-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/web-feature-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/white-cart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/white-nxt-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/white-pre-arw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/white-right-arrow-button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/images/who-we-are.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/imagesloaded.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery-3.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery-ui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery.easing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery.isotope.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery.mCustomScrollbar.concat.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery.matchHeight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery.themepunch.revolution.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery.themepunch.tools.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/jquery.unveilEffects.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/opton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/revolution.extension.layeranimation.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/revolution.extension.navigation.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/revolution.extension.slideanims.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/js/slick.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/moban2468/说明.htm" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/client.log" afterPath="$PROJECT_DIR$/client.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Test.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Test.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Util.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Util.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/util/email/EmailUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/util/email/EmailUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +131,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MyAccessControlFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyShiroRealm2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="33" column="76" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,19 +201,19 @@
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/token/model/TokenModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/token/mapper/TokenMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/cace/C.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/home/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/model/TokenModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/api/AccountInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/email/EmailUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
       </list>
     </option>
   </component>
@@ -180,6 +314,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -221,15 +357,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,47 +368,11 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,6 +384,7 @@
       <recent name="org.client.com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\shengzhizhe\client\src\main\resources\doc" />
       <recent name="D:\shengzhizhe\client\src\main\java\org\client\com\model" />
       <recent name="D:\8cloud\wzt\src\main\java\org\client\com" />
     </key>
@@ -494,17 +586,24 @@
       <option name="project" value="LOCAL" />
       <updated>1518316060299</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="改改bug">
+      <created>1518316736280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518316736280</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -517,7 +616,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27453142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28776187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -529,6 +628,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -543,33 +643,19 @@
     <MESSAGE value="其它" />
     <MESSAGE value="无状态登录，利用cokie缓存token，目前后退浏览器还会自动登录，cokie无法清除" />
     <MESSAGE value="token 增加记录到数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="token 增加记录到数据库" />
+    <MESSAGE value="改改bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="改改bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="40" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/Subject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/StatelessToken.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/StatelessAuthcFilter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/StatelessDefaultSubjectFactory.java" />
@@ -620,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,13 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/AuthenticationToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -684,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,14 +774,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/test/controller/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyUsernamePasswordToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.11/tomcat-embed-core-8.5.11.jar!/javax/servlet/ServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1600">
@@ -716,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,14 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AdviceFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -772,61 +832,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="73" column="58" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/model/TokenModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/token/model/TokenModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/api/AccountInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="42" column="80" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,31 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="939">
           <caret line="53" column="58" lean-forward="false" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/filter/AccessControlFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="96" column="72" lean-forward="false" selection-start-line="96" selection-start-column="67" selection-end-line="96" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,6 +880,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="143" column="19" lean-forward="false" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/moban2468/js/opton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/api/AccountInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/token/model/TokenModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/filter/AccessControlFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1508825047710" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1508825047710" expanded="false" signature="151:369" ph="..." />
+            <marker date="1508825047710" expanded="true" signature="689:696" ph="{}" />
+            <marker date="1508825047710" expanded="false" signature="729:740" ph=" { " />
+            <marker date="1508825047710" expanded="false" signature="761:767" ph=" }" />
+            <marker date="1508825047710" expanded="false" signature="813:824" ph=" { " />
+            <marker date="1508825047710" expanded="false" signature="849:855" ph=" }" />
+            <marker date="1508825047710" expanded="true" signature="940:990" ph="{...}" />
+            <marker date="1508825047710" expanded="true" signature="1238:1300" ph="{...}" />
+            <marker date="1508825047710" expanded="true" signature="1528:1659" ph="{...}" />
+            <marker date="1508825047710" expanded="true" signature="1748:1816" ph="{...}" />
+            <marker date="1508825047710" expanded="true" signature="1936:2027" ph="{...}" />
+            <marker date="1508825047710" expanded="false" signature="2083:2094" ph=" { " />
+            <marker date="1508825047710" expanded="false" signature="2124:2130" ph=" }" />
+            <marker date="1508825047710" expanded="true" signature="2236:2350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AdviceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3832">
+          <caret line="165" column="1" lean-forward="false" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/AuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyUsernamePasswordToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1294#1295#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="114" column="54" lean-forward="true" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="76" lean-forward="false" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
           <folding />
         </state>
       </provider>
