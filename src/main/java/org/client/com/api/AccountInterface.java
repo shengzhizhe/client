@@ -12,9 +12,9 @@ public interface AccountInterface {
     ResponseResult<AccountModel> getAccount(@Param("account") String account);
 
     @RequestLine("GET /account/id?id={id}")
-    ResponseResult getById(@Param("id") String id);
+    ResponseResult<AccountModel> getById(@Param("id") String id);
 
     @Headers("Content-Type:application/json")
     @RequestLine("POST /account/account")
-    ResponseResult register(@Param("model") AccountModel model);
+    ResponseResult<AccountModel> register(@Param("model") AccountModel model);
 }

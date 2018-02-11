@@ -3,9 +3,15 @@ package org.client.com;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.AccessControlFilter;
+import org.client.com.api.AccountInterface;
+import org.client.com.api.TokenInterface;
+import org.client.com.model.AccountModel;
+import org.client.com.model.TokenModel;
 import org.client.com.util.base64.Base64Util;
+import org.client.com.util.resultJson.ResponseResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -20,6 +26,11 @@ import java.io.IOException;
 public class MyAccessControlFilter extends AccessControlFilter {
 
     private static final Logger log = LoggerFactory.getLogger(MyAccessControlFilter.class);
+
+    @Autowired
+    private TokenInterface tkInterface;
+    @Autowired
+    private AccountInterface acInterface;
 
     /**
      * 表示是否允许访问；mappedValue就是[urls]配置中拦截器参数部分，如果允许访问返回true，否则false；
@@ -64,12 +75,10 @@ public class MyAccessControlFilter extends AccessControlFilter {
             return false;
         }
         String[] split = token_str.split("_");
-        String uuid = split[0];
+        String tokens = split[0];
         String account = split[1];
-        String times = split[2];
-        String author = split[3];
-        String type = split[4];
-        String pwd = split[5];
+        String author = split[2];
+        String type = split[3];
 
 //            密钥是否是本系统签发
         if (!"The survival of the dead".equals(Base64Util.decode(author))) {
@@ -77,29 +86,35 @@ public class MyAccessControlFilter extends AccessControlFilter {
             return false;
         }
 //        密钥是否过期
+        ResponseResult<TokenModel> result = tkInterface.getByAccount(account);
+        if (!result.isSuccess()) {
+            onLoginFail(response, "非法的密匙");
+            return false;
+        }
+        if (result.getData().getIsUse().equals("N")) {
+            onLoginFail(response, "登录已过期，请从新登录");
+            return false;
+        }
+        long endTimes = result.getData().getEndTimes();
         long now_times = System.currentTimeMillis();
-        if (times == null || times.isEmpty()) {
+        if (endTimes <= 0) {
             onLoginFail(response, "非法的密匙");
             return false;
         }
-        try {
-            String s = Base64Util.decode(times);
-            long my_times = Long.parseLong(s);
-            if (now_times - my_times > (5000 * 60 * 60)) {
+        if (endTimes < now_times) {
 //                密钥过期
-                onLoginFail(response, "登录已过期，请从新登录");
-                return false;
-            }
-        } catch (Exception e) {
-//            无法转换long，确定密钥不是合法的
-            onLoginFail(response, "非法的密匙");
+            onLoginFail(response, "登录已过期，请从新登录");
             return false;
         }
-
+        ResponseResult<AccountModel> result1 = acInterface.getAccount(Base64Util.decode(account));
+        if (!result1.isSuccess()) {
+            onLoginFail(response, "用户未找到");
+            return false;
+        }
 //验证用户和令牌的有效性(此处应该根据uuid取缓存数据然后判断令牌时候有效)
         MyUsernamePasswordToken token = new MyUsernamePasswordToken(Base64Util.decode(account),
                 Base64Util.decode(type),
-                pwd);
+                result1.getData().getPassword());
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(token);
@@ -110,8 +125,7 @@ public class MyAccessControlFilter extends AccessControlFilter {
             return false;
         }
         log.info("令牌验证成功");
-        String times2 = Base64Util.encode(String.valueOf(System.currentTimeMillis()));
-        token_str = uuid + "_" + account + "_" + times2 + "_" + author + "_" + type + "_" + pwd;
+        token_str = tokens + "_" + account + "_" + author + "_" + type;
         Cookie cookie = new Cookie("token", token_str);
         cookie.setPath("/");
         cookie.setMaxAge(60);

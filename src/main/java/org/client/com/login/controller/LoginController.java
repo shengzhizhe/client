@@ -5,9 +5,12 @@ import org.apache.shiro.session.SessionException;
 import org.apache.shiro.subject.Subject;
 import org.client.com.MyUsernamePasswordToken;
 import org.client.com.api.AccountInterface;
+import org.client.com.api.TokenInterface;
 import org.client.com.login.model.LoginModel;
+import org.client.com.model.TokenModel;
 import org.client.com.util.base64.Base64Util;
 import org.client.com.util.redirect.RedirectUtil;
+import org.client.com.util.resultJson.ResponseResult;
 import org.client.com.util.uuidUtil.GetUuid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,6 +36,8 @@ public class LoginController {
 
     @Autowired
     private AccountInterface loginInterface;
+    @Autowired
+    private TokenInterface tkInterface;
 
     /**
      * @param model  LoginModel
@@ -57,19 +62,27 @@ public class LoginController {
 //        生成新的token
 //        账号，新uuid（密钥），过期时间，所有者
             String account = model.getUsername();
-            String uuid = GetUuid.getUUID();
-            long times = System.currentTimeMillis();
+            String tokens = GetUuid.getUUID();
             String author = "The survival of the dead";
             String type = "user";
 //单独加密
-            uuid = Base64Util.encode(uuid);
+            tokens = Base64Util.encode(tokens);
             account = Base64Util.encode(account);
-            String times2 = Base64Util.encode(String.valueOf(times));
             author = Base64Util.encode(author);
             type = Base64Util.encode(type);
 
-            String token_str = uuid + "_" + account + "_" + times2 + "_" + author + "_" + type + "_" + Base64Util.encode(model.getPassword());
-//此处可以将token放入缓存库
+            String token_str = tokens + "_" + account + "_" + author + "_" + type;
+//            令牌存入数据库
+            TokenModel tokenModel = new TokenModel();
+            tokenModel.setAccount(account);
+            tokenModel.setEndTimes(System.currentTimeMillis() + (1000 * 60 * 15));
+            tokenModel.setIsUse("Y");
+            tokenModel.setToken(tokens);
+            ResponseResult<TokenModel> result1 = tkInterface.add(tokenModel);
+            if (!result1.isSuccess()) {
+                response.setHeader("message", "令牌出错");
+                return new ModelAndView(redirectUtil.getRedirect() + "/index");
+            }
             Cookie cookie2 = new Cookie("token", null);
             response.addCookie(cookie2);
             Cookie cookie = new Cookie("token", token_str);
