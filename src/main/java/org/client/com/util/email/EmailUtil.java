@@ -148,7 +148,6 @@ public class EmailUtil {
             //设置velocity资源加载方式为file时的处理类
             properties.setProperty("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.FileResourceLoader");
             //实例化一个VelocityEngine对象
-            VelocityEngine velocityEngine = new VelocityEngine(properties);
             VelocityEngine velocity = new VelocityEngine();
             Map<String, Object> model = new HashedMap();
             model.put("emailname", toUser);
