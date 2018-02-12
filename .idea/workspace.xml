@@ -2,708 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc79cac7-29dd-46fb-93bd-8ac1a7738122" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/3000套网站模板免费拥有.url" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/.project" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/b.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/.project" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/css/admin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/css/amazeui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/css/amazeui.flat.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/css/amazeui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/adminPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/blogPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/landing.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/landingPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/loginPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/i/startup-640x1096.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/amazeui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/amazeui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/handlebars.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/AmazeUI-2.4.2/assets/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/css/demo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/chongzhi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/ibar_sprites.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/logobar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/logobig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/no-img_mid_.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/wdsc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/images/weixin_code_145.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/js/jquery-1.7.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/js/jquery-1.9.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/basic/js/quick_links.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/addstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/appstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/bilstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/blogstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/blstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/bostyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/cartstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/cmstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/colstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/cpstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/dlstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/footstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/hmstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/infstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/jsstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/lostyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/newstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/optstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/orstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/personal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/refstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/seastyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/skin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/sortstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/stepstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/sustyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/css/systyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/home.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/home1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/home3.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/introduction.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/pay.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/search.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/shopcart.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/sort.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/home/success.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/-0-saturn_solar.jpg_220x220.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/0-item_pic.jpg_220x220.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/01_mid.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/01_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/02_mid.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/02_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/03_mid.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/03_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/1-item_pic.jpg_220x220.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/1_160x160.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/2016.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/3CoOkxrFOP.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/556.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/557.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/559.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/566.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/566fda5cN4b8a1675.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/62988.jpg_80x80.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/65.jpg_120x120xz.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/72h.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/88.jpg_120x120xz.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/T13iv.XiFdXXa94Hfd-32-32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/TB102.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/TB1_pic.jpg_200x200.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/TJ.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/TJ2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/YXARdXxj5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/act1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/act2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/act3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/activity.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/activity1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/activity2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/activity3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ad8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/addbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/addicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/addicon1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/addicon2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/advTip.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/bamboo.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/bamboo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/blog09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/bonus.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/browse1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/cake.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/cake.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/candy.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/candy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/cardbg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/checkbox.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/chocolate.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/chocolate.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/chongzhi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/clockbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/close.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/combo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/comment.jpg_400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/comment.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/cookies.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/cookies.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/coupon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/coupon2015.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/coupon20150805.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/couponli.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/cp.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/cp2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/day-to.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/extra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/fish.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/fish.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/getAvatar.do.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/gift_intro_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/gift_stamp_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/gift_stamp_2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/gift_stamp_21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/gift_stamp_3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/gift_stamp_31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/header-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/header-bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/huismall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/hwbn40x40.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/ibar_sprites.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/icon-sale.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconbig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconfont-bad.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconfont-badon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconfont-evaluate.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconfont-good.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconfont-middle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconsmall.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconsmall0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconsmall1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconsmall2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/iconsmall3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/image.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/imgsearch1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/index_ico_png32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/item-pic.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/kouhong.jpg_80x80.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/kuaidi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/list1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/listsmall1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/logo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/logobig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/logobig1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/logobig2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/mansmall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/mask.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/meat.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/meat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/moneysmall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/mygift_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/navce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/navsmall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/no-img_mid_.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/nut.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/nut.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/package.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/package.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/pay.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/peraddbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/peraddress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/peraddressbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/receive.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/refund.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/return-process-cd.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/row1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/row2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/row3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/row4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/sale-t.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/sale-t_clock.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/sale1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/sale2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/sale3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/scoll1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/scoll2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/send.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/side.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/songzi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/sprite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/sys_item_selected.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tea.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tea.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tj.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tj1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tj2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tw1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tw2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tw3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tw4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tw5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tw6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/tw7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/wallet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/wangyin.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/wdsc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/weixin_code_145.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/weizhifu.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/zhifubao.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/images/图标.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/js/address.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/js/jquery-1.7.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/js/jquery.flexslider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/js/jquery.imagezoom.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/js/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/js/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/options.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/address.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/bill.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/billlist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/bindphone.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/blog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/bonus.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/change.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/collection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/comment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/commentlist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/coupon.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/email.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/foot.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/idcard.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/information.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/logistics.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/news.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/order.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/orderinfo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/password.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/question.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/record.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/refund.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/safety.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/one/person/setpay.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/s.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/.project" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/css/admin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/css/amazeui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/css/amazeui.flat.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/css/amazeui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/adminPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/blogPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/landing.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/landingPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/loginPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/i/startup-640x1096.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/amazeui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/amazeui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/handlebars.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/AmazeUI-2.4.2/assets/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/css/demo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/images/chongzhi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/images/ibar_sprites.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/images/no-img_mid_.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/images/wdsc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/images/weixin_code_145.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/js/jquery-1.7.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/js/jquery-1.9.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/basic/js/quick_links.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/addstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/appstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/bilstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/blogstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/blstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/bostyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/cartstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/cmstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/colstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/cpstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/dlstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/footstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/hmstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/infstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/jsstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/lostyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/newstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/optstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/orstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/personal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/point.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/refstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/seastyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/skin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/sortstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/stepstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/sustyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/vipstyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/css/wallet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/frame.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/home2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/home3.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/introduction.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/pay.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/search.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/shopcart.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/sort.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/home/success.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/-0-saturn_solar.jpg_220x220.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/0-item_pic.jpg_220x220.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/01_mid.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/01_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/02_mid.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/02_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/03_mid.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/03_small.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/1-item_pic.jpg_220x220.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/111.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/1_160x160.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/2016.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/222.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/333.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/3CoOkxrFOP.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/556.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/557.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/559.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/566.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/566fda5cN4b8a1675.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/62988.jpg_80x80.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/65.jpg_120x120xz.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/666.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/72h.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/88.jpg_120x120xz.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/Balance.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/BxJk6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/EZA27501.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/Hxcag60.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/T13iv.XiFdXXa94Hfd-32-32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/TB102.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/TB1_pic.jpg_200x200.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/TJ.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/TJ2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/YXARdXxj5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/act1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/act2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/act3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/activity.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/activity1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/activity2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/activity3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ad8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/addbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/addicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/addicon1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/addicon2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/advTip.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/bamboo.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/bamboo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/bankjh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/bankns.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/big.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog07.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog08.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/blog09.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/bonus.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/browse1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cake.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cake.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/candy.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/candy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cardbg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cardbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cardtype.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/checkbox.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/chocolate.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/chocolate.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/chongzhi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/clockbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/close.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/combo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/combo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/combo2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/combo3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/comment.jpg_400x400.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/comment.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cookies.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cookies.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/coupon-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/coupon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/coupon2015.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/coupon20150805.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/couponli.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cp.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/cp2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/day-to.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/extra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/fish.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/fish.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/getAvatar.do.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/gift_intro_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/gift_stamp_1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/gift_stamp_2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/gift_stamp_21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/gift_stamp_3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/gift_stamp_31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/header-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/header-bg1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/heart.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/huismall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/hwbn40x40.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/ibar_sprites.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/icon-sale.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/icon_bar.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/icon_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/icon_progress_24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconbig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconfont-bad.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconfont-badon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconfont-evaluate.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconfont-good.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconfont-middle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconsmall.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconsmall0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconsmall1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconsmall2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/iconsmall3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/image.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/imgBox.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/imgsearch1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/index_ico_png32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/item-pic.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/kouhong.jpg_80x80.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/kuaidi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/list1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/listsmall1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/logo1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/logobig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/logobig1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/logobig2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/mansmall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/mask.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/meat.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/meat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/moneysmall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/mygift_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/navce.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/navsmall.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/no-img_mid_.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/nut.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/nut.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/package.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/package.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/pay.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/peraddbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/peraddress.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/peraddressbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/pig.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/profit.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/receive.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/refund.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/return-process-cd.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/row1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/row2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/row3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/row4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/safe.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/safe_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/sale-t.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/sale-t_clock.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/sale1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/sale2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/sale3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/scoll1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/scoll2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/send.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/shopping.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/side.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/songzi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/sprite.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/sys_item_selected.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tea.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tea.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tj.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tj1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tj2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tw1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tw2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tw3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tw4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tw5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tw6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/tw7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/u5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/u6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/wallet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/wangyin.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/wdsc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/weixin_code_145.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/weizhifu.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/youzi.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/zhifubao.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/images/图标.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/js/address.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/js/jquery-1.7.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/js/jquery.flexslider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/js/jquery.imagezoom.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/js/list.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/js/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/address.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/bill.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/billlist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/bindphone.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/blog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/bonus.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/cardlist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/cardmethod.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/change.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/collection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/comment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/commentlist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/consultation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/coupon.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/email.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/foot.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/idcard.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/information.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/logistics.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/news.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/order.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/orderinfo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/password.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/pointnew.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/points.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/question.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/record.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/refund.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/safety.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/setpay.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/suggest.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/wallet.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/two/person/walletlist.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/找网站模板就上【模板之家】cssMoban.com.url" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/amz_02_adp/amz_02_adp/说明.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/client.log" afterPath="$PROJECT_DIR$/client.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-2.1.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/loginregist/css/styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/loginregist/img/bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/loginregist/img/logo.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -714,7 +14,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -764,7 +75,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/home/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/home/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/model/TokenModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/api/AccountInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/email/EmailUtil.java" />
@@ -777,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/config/token/TokenManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
       </list>
     </option>
   </component>
@@ -877,6 +188,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -911,27 +224,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1188,16 +484,25 @@
       <option name="project" value="LOCAL" />
       <updated>1518414254169</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="增加一套页面模版">
+      <created>1518415133601</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1518415133601</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1210,7 +515,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1222,7 +527,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1240,7 +544,8 @@
     <MESSAGE value="改改bug" />
     <MESSAGE value="修改部分包路径" />
     <MESSAGE value="修改管理员验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改管理员验证" />
+    <MESSAGE value="增加一套页面模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加一套页面模版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1423,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/AuthenticationToken.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1521,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1545,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1593,6 +888,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
