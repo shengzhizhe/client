@@ -3,7 +3,7 @@ package org.client.com.register.controller;
 import feign.FeignException;
 import org.apache.shiro.SecurityUtils;
 import org.client.com.api.AccountInterface;
-import org.client.com.model.AccountModel;
+import org.client.com.api.model.AccountModel;
 import org.client.com.register.model.RegisterModel;
 import org.client.com.util.redirect.RedirectUtil;
 import org.client.com.util.resultJson.ResponseResult;

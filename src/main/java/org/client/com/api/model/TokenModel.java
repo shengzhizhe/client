@@ -1,4 +1,4 @@
-package org.client.com.model;
+package org.client.com.api.model;
 
 import java.io.Serializable;
 

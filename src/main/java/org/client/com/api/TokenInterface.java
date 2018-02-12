@@ -3,7 +3,7 @@ package org.client.com.api;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;
-import org.client.com.model.TokenModel;
+import org.client.com.api.model.TokenModel;
 import org.client.com.util.resultJson.ResponseResult;
 import org.springframework.web.bind.annotation.PathVariable;
 

@@ -7,7 +7,7 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.client.com.api.AccountInterface;
 import org.client.com.api.TokenInterface;
-import org.client.com.model.AccountModel;
+import org.client.com.api.model.AccountModel;
 import org.client.com.util.algorithm.Algorithm;
 import org.client.com.util.base64.Base64Util;
 import org.client.com.util.resultJson.ResponseResult;

@@ -3,7 +3,7 @@ package org.client.com.api;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;
-import org.client.com.model.AccountModel;
+import org.client.com.api.model.AccountModel;
 import org.client.com.util.resultJson.ResponseResult;
 
 public interface AccountInterface {
