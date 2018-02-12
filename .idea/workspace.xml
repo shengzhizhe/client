@@ -4,13 +4,7 @@
     <list default="true" id="dc79cac7-29dd-46fb-93bd-8ac1a7738122" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/api/AccountInterface.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/api/AccountInterface.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/config/token/TokenManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/model/AccountModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/api/model/AccountModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/model/TokenModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/api/model/TokenModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/register/controller/RegisterController.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/register/controller/RegisterController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +57,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/StatelessDefaultSubjectFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyUsernamePasswordToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyModularRealmAuthenticator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/token/model/TokenModel.java" />
@@ -77,13 +70,14 @@
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/email/EmailUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/algorithm/Algorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/config/token/TokenManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
       </list>
     </option>
   </component>
@@ -218,15 +212,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518399598684</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改部分包路径">
+      <created>1518413883255</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1518413883255</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,7 +517,8 @@
     <MESSAGE value="无状态登录，利用cokie缓存token，目前后退浏览器还会自动登录，cokie无法清除" />
     <MESSAGE value="token 增加记录到数据库" />
     <MESSAGE value="改改bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="改改bug" />
+    <MESSAGE value="修改部分包路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改部分包路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,7 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/StatelessAuthcFilter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/StatelessDefaultSubjectFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/StatelessRealm.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
@@ -572,13 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="288" column="12" lean-forward="false" selection-start-line="288" selection-start-column="12" selection-end-line="288" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyModularRealmAuthenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -739,13 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1161">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/util/base64/Base64Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -768,33 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyUsernamePasswordToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -827,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/config/token/TokenManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -863,6 +810,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/email/controller/EmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyModularRealmAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyUsernamePasswordToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="156" column="7" lean-forward="false" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
           <folding />
         </state>
       </provider>
