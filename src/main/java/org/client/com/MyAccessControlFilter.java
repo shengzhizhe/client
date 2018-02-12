@@ -63,7 +63,7 @@ public class MyAccessControlFilter extends AccessControlFilter {
         }
 //验证用户和令牌的有效性(此处应该根据uuid取缓存数据然后判断令牌时候有效)
         String tk = GetUuid.getUUID();
-        MyUsernamePasswordToken token = new MyUsernamePasswordToken("", tk, token_str);
+        MyUsernamePasswordToken token = new MyUsernamePasswordToken("", Base64Util.decode(token_str.split("_")[3]), token_str);
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(token);

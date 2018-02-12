@@ -8,6 +8,7 @@ import org.client.com.MyUsernamePasswordToken;
 import org.client.com.api.AccountInterface;
 import org.client.com.api.TokenInterface;
 import org.client.com.login.model.LoginModel;
+import org.client.com.util.algorithm.Algorithm;
 import org.client.com.util.base64.Base64Util;
 import org.client.com.util.redirect.RedirectUtil;
 import org.client.com.util.uuidUtil.GetUuid;
@@ -63,9 +64,9 @@ public class LoginController {
 //        账号，新uuid（密钥），过期时间，所有者
             String account = model.getUsername();
             String tokens = GetUuid.getUUID();
-            String author = "The survival of the dead";
             String type = "user";
             long times = System.currentTimeMillis() + (1000 * 60 * 15);
+            String author = Algorithm.en("The survival of the dead " + times);
 //单独加密
             tokens = Base64Util.encode(tokens);
             account = Base64Util.encode(account);
