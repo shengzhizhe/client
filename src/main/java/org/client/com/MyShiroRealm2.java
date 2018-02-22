@@ -5,7 +5,6 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.client.com.api.AccountInterface;
 import org.client.com.api.TokenInterface;
 import org.client.com.api.model.TokenModel;
 import org.client.com.util.resultJson.ResponseResult;
@@ -18,8 +17,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MyShiroRealm2 extends AuthorizingRealm {
 
-    @Autowired
-    private AccountInterface anInterface;
     @Autowired
     private TokenInterface tkInterface;
 

@@ -80,8 +80,7 @@ public class MyAccessControlFilter extends AccessControlFilter {
         //        本过滤器在spring加载bean之前执行，所以直接调用feign
         TokenInterface tkInterface = Feign.builder().encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
-//                .target(TokenInterface.class, "http://39.106.33.113:9002/account");
-                .target(TokenInterface.class, "http://localhost:9003");
+                .target(TokenInterface.class, "http://39.106.33.113:9002/account");
 //        废弃原有令牌
         ResponseResult<TokenModel> result1 = tkInterface.updateToken(token_str);
         if (result1.isSuccess()) {
