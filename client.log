@@ -18471,3 +18471,305 @@ feign.FeignException: status 400 reading TokenInterface#updateToken(String); con
 2018-02-22 16:00:01.316  INFO 6608 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
 2018-02-22 16:00:01.316  INFO 6608 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
 2018-02-22 16:00:01.390  INFO 6608 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:14:50.236  INFO 6328 --- [restartedMain] org.client.com.Application               : Starting Application on 110-PC with PID 6328 (D:\shengzhizhe\client\target\classes started by 222 in D:\shengzhizhe\client)
+2018-02-22 16:14:50.451  INFO 6328 --- [restartedMain] org.client.com.Application               : No active profile set, falling back to default profiles: default
+2018-02-22 16:14:51.585  INFO 6328 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6bffa6dd: startup date [Thu Feb 22 16:14:51 CST 2018]; root of context hierarchy
+2018-02-22 16:14:52.840  INFO 6328 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'myShiroRealm' with a different definition: replacing [Generic bean: class [org.client.com.MyShiroRealm]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\shengzhizhe\client\target\classes\org\client\com\MyShiroRealm.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=shiroConfiguration; factoryMethodName=myShiroRealm; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/client/com/ShiroConfiguration.class]]
+2018-02-22 16:14:52.843  INFO 6328 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'myShiroRealm2' with a different definition: replacing [Generic bean: class [org.client.com.MyShiroRealm2]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\shengzhizhe\client\target\classes\org\client\com\MyShiroRealm2.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=shiroConfiguration; factoryMethodName=myShiroRealm2; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/client/com/ShiroConfiguration.class]]
+2018-02-22 16:14:53.802  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:54.031  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:54.111  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfiguration' of type [org.client.com.ShiroConfiguration$$EnhancerBySpringCGLIB$$bd034390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:54.931  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customizedModularRealmAuthenticator' of type [org.client.com.MyModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:54.998  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'application' of type [org.client.com.Application$$EnhancerBySpringCGLIB$$ebd552af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:55.053  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'anInterface' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:55.055  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm' of type [org.client.com.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:55.084  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenInterface' of type [com.sun.proxy.$Proxy69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:55.087  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm2' of type [org.client.com.MyShiroRealm2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:55.110  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:55.136  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:14:56.061  INFO 6328 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8999 (http)
+2018-02-22 16:14:56.098  INFO 6328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-22 16:14:56.103  INFO 6328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-22 16:14:56.260  INFO 6328 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-22 16:14:56.260  INFO 6328 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4680 ms
+2018-02-22 16:14:56.792  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-22 16:14:56.800  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-22 16:14:56.801  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-22 16:14:56.802  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-22 16:14:56.802  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-22 16:14:56.802  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'shirFilter' to: [/*]
+2018-02-22 16:14:57.995  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6bffa6dd: startup date [Thu Feb 22 16:14:51 CST 2018]; root of context hierarchy
+2018-02-22 16:14:58.389  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/email/toemail]}" onto public org.client.com.util.resultJson.ResponseResult org.client.com.email.controller.EmailController.regitEmail(java.lang.String,java.lang.String)
+2018-02-22 16:14:58.393  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/init]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.home.controller.HomeController.init()
+2018-02-22 16:14:58.399  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.index(java.lang.String)
+2018-02-22 16:14:58.400  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.init()
+2018-02-22 16:14:58.410  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.loginIn(org.client.com.login.model.LoginModel,org.springframework.validation.BindingResult,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-02-22 16:14:58.412  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:14:58.419  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.register(org.client.com.register.model.RegisterModel,org.springframework.validation.BindingResult)
+2018-02-22 16:14:58.419  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/toRegister]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.init()
+2018-02-22 16:14:58.420  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/registerOK],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.registerOK()
+2018-02-22 16:14:58.423  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/publics/{view}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.util.publics.PublicViewController.init(java.lang.String)
+2018-02-22 16:14:58.428  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-22 16:14:58.429  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:14:58.589  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:14:58.589  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:14:58.751  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:15:00.092  INFO 6328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-22 16:15:00.275  INFO 6328 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-22 16:15:00.408  INFO 6328 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
+2018-02-22 16:15:00.419  INFO 6328 --- [restartedMain] org.client.com.Application               : Started Application in 11.709 seconds (JVM running for 13.048)
+2018-02-22 16:15:04.667  INFO 6328 --- [http-nio-8999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-22 16:15:04.667  INFO 6328 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-22 16:15:04.708  INFO 6328 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+2018-02-22 16:15:04.753  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:15:04.753  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:15:04.755  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 令牌验证失败，令牌错误
+2018-02-22 16:15:04.756  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : null
+2018-02-22 16:15:04.756  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 设置返回
+2018-02-22 16:15:09.794  WARN 6328 --- [http-nio-8999-exec-7] o.a.shiro.authc.AbstractAuthenticator    : Authentication failed for token submission [MyUsernamePasswordToken{username='xuesemofa@126.com', params=null, type=user, signature='eHVlc2Vtb2ZhMTIz'}].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+
+feign.FeignException: status 400 reading TokenInterface#getByToken(String); content:
+�˻�ϵͳ崻�,����ϵϵͳ����Ա
+	at feign.FeignException.errorStatus(FeignException.java:62) ~[feign-core-8.18.0.jar:8.18.0]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:91) ~[feign-core-8.18.0.jar:8.18.0]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:134) ~[feign-core-8.18.0.jar:8.18.0]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:76) ~[feign-core-8.18.0.jar:8.18.0]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103) ~[feign-core-8.18.0.jar:8.18.0]
+	at com.sun.proxy.$Proxy69.getByToken(Unknown Source) ~[na:na]
+	at org.client.com.MyShiroRealm2.doGetAuthenticationInfo(MyShiroRealm2.java:37) ~[classes/:na]
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.client.com.MyModularRealmAuthenticator.doAuthenticate(MyModularRealmAuthenticator.java:37) ~[classes/:na]
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198) ~[shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256) [shiro-core-1.3.2.jar:1.3.2]
+	at org.client.com.login.controller.LoginController.loginIn(LoginController.java:61) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2018-02-22 16:15:09.802  INFO 6328 --- [http-nio-8999-exec-7] o.c.c.login.controller.LoginController   : 获取令牌失败
+2018-02-22 16:15:09.803  INFO 6328 --- [http-nio-8999-exec-7] o.c.c.login.controller.LoginController   : Authentication failed for token submission [MyUsernamePasswordToken{username='xuesemofa@126.com', params=null, type=user, signature='eHVlc2Vtb2ZhMTIz'}].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+2018-02-22 16:15:13.136  INFO 6328 --- [http-nio-8999-exec-10] o.c.c.login.controller.LoginController   : 获取令牌成功
+2018-02-22 16:15:13.451  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:15:13.454  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:15:13.511  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:15:16.664  INFO 6328 --- [http-nio-8999-exec-3] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:15:16.665  INFO 6328 --- [http-nio-8999-exec-3] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:15:16.711  INFO 6328 --- [http-nio-8999-exec-3] org.client.com.MyAccessControlFilter     : 令牌验证失败，令牌错误
+2018-02-22 16:15:16.711  INFO 6328 --- [http-nio-8999-exec-3] org.client.com.MyAccessControlFilter     : null
+2018-02-22 16:15:16.711  INFO 6328 --- [http-nio-8999-exec-3] org.client.com.MyAccessControlFilter     : 设置返回
+2018-02-22 16:15:19.365  INFO 6328 --- [http-nio-8999-exec-6] o.c.c.login.controller.LoginController   : 获取令牌成功
+2018-02-22 16:15:19.477  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:15:19.478  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:15:19.637  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:15:20.499  INFO 6328 --- [http-nio-8999-exec-8] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:15:20.500  INFO 6328 --- [http-nio-8999-exec-8] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:15:20.554  INFO 6328 --- [http-nio-8999-exec-8] org.client.com.MyAccessControlFilter     : 令牌验证失败，令牌错误
+2018-02-22 16:15:20.554  INFO 6328 --- [http-nio-8999-exec-8] org.client.com.MyAccessControlFilter     : null
+2018-02-22 16:15:20.554  INFO 6328 --- [http-nio-8999-exec-8] org.client.com.MyAccessControlFilter     : 设置返回
+2018-02-22 16:17:25.474  INFO 6328 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6bffa6dd: startup date [Thu Feb 22 16:14:51 CST 2018]; root of context hierarchy
+2018-02-22 16:17:25.482  INFO 6328 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-22 16:17:26.121  INFO 6328 --- [restartedMain] org.client.com.Application               : Starting Application on 110-PC with PID 6328 (D:\shengzhizhe\client\target\classes started by 222 in D:\shengzhizhe\client)
+2018-02-22 16:17:26.122  INFO 6328 --- [restartedMain] org.client.com.Application               : No active profile set, falling back to default profiles: default
+2018-02-22 16:17:26.142  INFO 6328 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@279631ec: startup date [Thu Feb 22 16:17:26 CST 2018]; root of context hierarchy
+2018-02-22 16:17:26.865  INFO 6328 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'myShiroRealm' with a different definition: replacing [Generic bean: class [org.client.com.MyShiroRealm]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\shengzhizhe\client\target\classes\org\client\com\MyShiroRealm.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=shiroConfiguration; factoryMethodName=myShiroRealm; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/client/com/ShiroConfiguration.class]]
+2018-02-22 16:17:26.866  INFO 6328 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'myShiroRealm2' with a different definition: replacing [Generic bean: class [org.client.com.MyShiroRealm2]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\shengzhizhe\client\target\classes\org\client\com\MyShiroRealm2.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=shiroConfiguration; factoryMethodName=myShiroRealm2; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/client/com/ShiroConfiguration.class]]
+2018-02-22 16:17:27.091  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.103  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.115  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfiguration' of type [org.client.com.ShiroConfiguration$$EnhancerBySpringCGLIB$$bd034390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.150  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customizedModularRealmAuthenticator' of type [org.client.com.MyModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.178  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'application' of type [org.client.com.Application$$EnhancerBySpringCGLIB$$ebd552af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.189  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'anInterface' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.190  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm' of type [org.client.com.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.210  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenInterface' of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.213  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm2' of type [org.client.com.MyShiroRealm2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.214  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.216  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:17:27.426  INFO 6328 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8999 (http)
+2018-02-22 16:17:27.428  INFO 6328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-22 16:17:27.429  INFO 6328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-22 16:17:27.520  INFO 6328 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-22 16:17:27.521  INFO 6328 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1379 ms
+2018-02-22 16:17:28.488  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-22 16:17:28.488  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-22 16:17:28.488  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-22 16:17:28.489  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-22 16:17:28.489  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-22 16:17:28.489  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'shirFilter' to: [/*]
+2018-02-22 16:17:29.285  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@279631ec: startup date [Thu Feb 22 16:17:26 CST 2018]; root of context hierarchy
+2018-02-22 16:17:29.350  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/email/toemail]}" onto public org.client.com.util.resultJson.ResponseResult org.client.com.email.controller.EmailController.regitEmail(java.lang.String,java.lang.String)
+2018-02-22 16:17:29.351  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/init]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.home.controller.HomeController.init()
+2018-02-22 16:17:29.351  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.index(java.lang.String)
+2018-02-22 16:17:29.352  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.init()
+2018-02-22 16:17:29.353  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.loginIn(org.client.com.login.model.LoginModel,org.springframework.validation.BindingResult,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-02-22 16:17:29.354  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:17:29.357  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.register(org.client.com.register.model.RegisterModel,org.springframework.validation.BindingResult)
+2018-02-22 16:17:29.357  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/toRegister]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.init()
+2018-02-22 16:17:29.357  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/registerOK],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.registerOK()
+2018-02-22 16:17:29.358  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/publics/{view}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.util.publics.PublicViewController.init(java.lang.String)
+2018-02-22 16:17:29.361  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-22 16:17:29.362  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:17:29.485  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:17:29.485  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:17:29.607  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:17:30.026  INFO 6328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-22 16:17:30.129  INFO 6328 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-22 16:17:30.149  INFO 6328 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
+2018-02-22 16:17:30.152  INFO 6328 --- [restartedMain] org.client.com.Application               : Started Application in 4.175 seconds (JVM running for 162.779)
+2018-02-22 16:17:46.240  INFO 6328 --- [http-nio-8999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-22 16:17:46.241  INFO 6328 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-22 16:17:46.249  INFO 6328 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+2018-02-22 16:17:51.496  INFO 6328 --- [http-nio-8999-exec-5] o.c.c.login.controller.LoginController   : 获取令牌成功
+2018-02-22 16:17:51.630  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:17:51.631  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:17:51.680  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:17:55.024  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:17:55.025  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:17:55.080  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyShiroRealm2             : 令牌过期
+2018-02-22 16:17:55.080  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : 令牌验证失败，令牌错误
+2018-02-22 16:17:55.080  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : null
+2018-02-22 16:17:55.080  INFO 6328 --- [http-nio-8999-exec-7] org.client.com.MyAccessControlFilter     : 设置返回
+2018-02-22 16:19:28.621  INFO 6328 --- [Thread-10] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@279631ec: startup date [Thu Feb 22 16:17:26 CST 2018]; root of context hierarchy
+2018-02-22 16:19:28.640  INFO 6328 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-22 16:19:29.354  INFO 6328 --- [restartedMain] org.client.com.Application               : Starting Application on 110-PC with PID 6328 (D:\shengzhizhe\client\target\classes started by 222 in D:\shengzhizhe\client)
+2018-02-22 16:19:29.354  INFO 6328 --- [restartedMain] org.client.com.Application               : No active profile set, falling back to default profiles: default
+2018-02-22 16:19:29.357  INFO 6328 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77ecad8e: startup date [Thu Feb 22 16:19:29 CST 2018]; root of context hierarchy
+2018-02-22 16:19:29.811  INFO 6328 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'myShiroRealm' with a different definition: replacing [Generic bean: class [org.client.com.MyShiroRealm]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\shengzhizhe\client\target\classes\org\client\com\MyShiroRealm.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=shiroConfiguration; factoryMethodName=myShiroRealm; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/client/com/ShiroConfiguration.class]]
+2018-02-22 16:19:29.812  INFO 6328 --- [restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'myShiroRealm2' with a different definition: replacing [Generic bean: class [org.client.com.MyShiroRealm2]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\shengzhizhe\client\target\classes\org\client\com\MyShiroRealm2.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=shiroConfiguration; factoryMethodName=myShiroRealm2; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/client/com/ShiroConfiguration.class]]
+2018-02-22 16:19:29.950  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:29.959  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:29.997  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfiguration' of type [org.client.com.ShiroConfiguration$$EnhancerBySpringCGLIB$$bd034390] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.011  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'customizedModularRealmAuthenticator' of type [org.client.com.MyModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.110  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'application' of type [org.client.com.Application$$EnhancerBySpringCGLIB$$ebd552af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.125  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'anInterface' of type [com.sun.proxy.$Proxy98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.125  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm' of type [org.client.com.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.146  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'tokenInterface' of type [com.sun.proxy.$Proxy99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.146  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm2' of type [org.client.com.MyShiroRealm2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.148  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.149  INFO 6328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-22 16:19:30.351  INFO 6328 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8999 (http)
+2018-02-22 16:19:30.352  INFO 6328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-22 16:19:30.354  INFO 6328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-22 16:19:30.497  INFO 6328 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-22 16:19:30.497  INFO 6328 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1140 ms
+2018-02-22 16:19:30.787  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-22 16:19:30.789  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-22 16:19:30.789  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-22 16:19:30.790  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-22 16:19:30.790  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-22 16:19:30.790  INFO 6328 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'shirFilter' to: [/*]
+2018-02-22 16:19:31.818  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77ecad8e: startup date [Thu Feb 22 16:19:29 CST 2018]; root of context hierarchy
+2018-02-22 16:19:31.966  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/email/toemail]}" onto public org.client.com.util.resultJson.ResponseResult org.client.com.email.controller.EmailController.regitEmail(java.lang.String,java.lang.String)
+2018-02-22 16:19:31.967  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/init]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.home.controller.HomeController.init()
+2018-02-22 16:19:31.967  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.index(java.lang.String)
+2018-02-22 16:19:31.967  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.init()
+2018-02-22 16:19:31.970  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.loginIn(org.client.com.login.model.LoginModel,org.springframework.validation.BindingResult,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-02-22 16:19:31.970  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:19:31.971  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.register(org.client.com.register.model.RegisterModel,org.springframework.validation.BindingResult)
+2018-02-22 16:19:31.971  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/toRegister]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.init()
+2018-02-22 16:19:31.972  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/registerOK],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.registerOK()
+2018-02-22 16:19:32.135  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/publics/{view}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.util.publics.PublicViewController.init(java.lang.String)
+2018-02-22 16:19:32.138  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-22 16:19:32.138  INFO 6328 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-22 16:19:32.435  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:19:32.439  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:19:32.543  INFO 6328 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-22 16:19:33.081  INFO 6328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-22 16:19:33.225  INFO 6328 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-22 16:19:33.414  INFO 6328 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
+2018-02-22 16:19:33.425  INFO 6328 --- [restartedMain] org.client.com.Application               : Started Application in 4.118 seconds (JVM running for 286.05)
+2018-02-22 16:19:38.065  INFO 6328 --- [http-nio-8999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-22 16:19:38.066  INFO 6328 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-22 16:19:38.081  INFO 6328 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-02-22 16:19:39.741  INFO 6328 --- [http-nio-8999-exec-4] o.c.c.login.controller.LoginController   : 获取令牌成功
+2018-02-22 16:19:39.827  INFO 6328 --- [http-nio-8999-exec-5] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:19:39.827  INFO 6328 --- [http-nio-8999-exec-5] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:19:39.867  INFO 6328 --- [http-nio-8999-exec-5] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:19:41.028  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:19:41.029  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:19:41.069  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:19:42.265  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:19:42.266  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:19:42.328  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:19:42.980  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:19:42.980  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:19:43.040  INFO 6328 --- [http-nio-8999-exec-1] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:19:51.433  INFO 6328 --- [http-nio-8999-exec-4] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:19:51.433  INFO 6328 --- [http-nio-8999-exec-4] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:19:51.507  INFO 6328 --- [http-nio-8999-exec-4] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:20:04.548  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /logout
+2018-02-22 16:20:04.549  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:20:04.621  INFO 6328 --- [http-nio-8999-exec-6] org.client.com.MyAccessControlFilter     : 令牌验证成功
+2018-02-22 16:20:07.096  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : 当前用户正在访问的 url => /home/init
+2018-02-22 16:20:07.097  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : subject.isPermitted(url);false
+2018-02-22 16:20:07.097  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyShiroRealm2             : 令牌为空
+2018-02-22 16:20:07.098  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : 令牌验证失败，令牌错误
+2018-02-22 16:20:07.098  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : null
+2018-02-22 16:20:07.098  INFO 6328 --- [http-nio-8999-exec-9] org.client.com.MyAccessControlFilter     : 设置返回

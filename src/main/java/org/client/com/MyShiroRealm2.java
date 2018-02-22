@@ -8,6 +8,8 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.client.com.api.TokenInterface;
 import org.client.com.api.model.TokenModel;
 import org.client.com.util.resultJson.ResponseResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
@@ -16,6 +18,8 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class MyShiroRealm2 extends AuthorizingRealm {
+
+    private static final Logger log = LoggerFactory.getLogger(MyShiroRealm2.class);
 
     @Autowired
     private TokenInterface tkInterface;
@@ -32,20 +36,25 @@ public class MyShiroRealm2 extends AuthorizingRealm {
         MyUsernamePasswordToken myToken = (MyUsernamePasswordToken) token;
         if (myToken.getSignature() == null || myToken.getSignature().isEmpty()) {
             //请从新登录;
+            log.info("令牌为空");
             throw new UnknownAccountException();
         }
         ResponseResult<TokenModel> result = tkInterface.getByToken(myToken.getSignature());
         if (result.isSuccess()) {
 //            如果token存在判断是否过期
             long now_times = System.currentTimeMillis();
-            if (result.getData().getEndTimes() <= 0 || result.getData().getEndTimes() < now_times)
+            if (result.getData().getEndTimes() <= 0 || result.getData().getEndTimes() < now_times) {
 //                密钥过期,请从新登录;
+                log.info("令牌过期");
                 throw new UnknownAccountException();
+            }
 
 //            判断是否是作废的令牌
-            if (result.getData().getIsUse().equals("Y"))
+            if (result.getData().getIsUse().equals("Y")) {
 //                令牌已作废
+                log.info("令牌已用过");
                 throw new UnknownAccountException();
+            }
             myToken.setUsername(result.getData().getAccount());
             return new SimpleAuthenticationInfo(
                     myToken,

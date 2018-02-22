@@ -2,9 +2,288 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc79cac7-29dd-46fb-93bd-8ac1a7738122" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/admin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.flat.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.flat.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/app-icon72x72@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-chrome.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-firefox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-ie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-opera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-safari.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/adminPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/blogPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/landing.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/landingPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/loginPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/examples/sidebarPage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/i/startup-640x1096.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/amazeui.ie8polyfill.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/amazeui.ie8polyfill.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/amazeui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/amazeui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/amazeui.widgets.helper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/amazeui.widgets.helper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/handlebars.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/css/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/chongzhi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/ibar_sprites.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/logobar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/logobig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/no-img_mid_.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/wdsc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/images/weixin_code_145.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/js/jquery-1.7.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/js/jquery-1.9.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/basic/js/quick_links.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/addstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/appstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bilstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/blogstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/blstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bostyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/cartstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/cmstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/colstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/cpstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/dlstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/footstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/hmstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/infstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/jsstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/lostyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/newstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/optstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/orstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/personal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/refstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/seastyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/skin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/sortstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/stepstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/sustyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/systyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/-0-saturn_solar.jpg_220x220.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/0-item_pic.jpg_220x220.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/01_mid.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/01_small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/02_mid.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/02_small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/03_mid.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/03_small.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/1-item_pic.jpg_220x220.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/1_160x160.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/2016.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/3CoOkxrFOP.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/556.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/557.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/559.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/566.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/566fda5cN4b8a1675.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/62988.jpg_80x80.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/65.jpg_120x120xz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/72h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/88.jpg_120x120xz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/T13iv.XiFdXXa94Hfd-32-32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/TB102.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/TB1_pic.jpg_200x200.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/TJ.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/TJ2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/YXARdXxj5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/act1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/act2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/act3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/activity.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/activity1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/activity2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/activity3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ad8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/addbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/addicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/addicon1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/addicon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/advTip.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/bamboo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/bamboo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/big.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog05.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog06.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog07.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog08.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog09.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/bonus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/browse1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/cake.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/cake.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/candy.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/candy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/cardbg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/checkbox.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/chocolate.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/chocolate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/chongzhi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/clockbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/combo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/comment.jpg_400x400.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/comment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/cookies.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/cookies.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/coupon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/coupon2015.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/coupon20150805.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/couponli.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/cp.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/cp2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/day-to.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/extra.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/fish.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/fish.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/getAvatar.do.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/gift_intro_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/gift_stamp_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/gift_stamp_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/gift_stamp_21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/gift_stamp_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/gift_stamp_31.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/header-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/header-bg1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/huismall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/hwbn40x40.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/ibar_sprites.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon-sale.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconbig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconfont-bad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconfont-badon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconfont-evaluate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconfont-good.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconfont-middle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconsmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconsmall0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconsmall1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconsmall2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/iconsmall3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/image.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/imgsearch1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/index_ico_png32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/item-pic.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/kouhong.jpg_80x80.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/kuaidi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/list1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/listsmall1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logobig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logobig1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/logobig2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/mansmall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/mask.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/meat.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/meat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/moneysmall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/mygift_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/navce.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/navsmall.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/no-img_mid_.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/nut.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/nut.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/package.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/package.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/pay.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/peraddbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/peraddress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/peraddressbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/receive.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/refund.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/return-process-cd.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/row1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/row2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/row3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/row4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/sale-t.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/sale-t_clock.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/sale1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/sale2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/sale3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/scoll1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/scoll2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/send.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/side.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/songzi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/sprite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/sys_item_selected.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tea.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tea.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tj1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tj2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tw1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tw2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tw3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tw4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tw5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tw6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/tw7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/wallet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/wangyin.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/wdsc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/weixin_code_145.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/weizhifu.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/zhifubao.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/images/图标.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/address.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.7.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.flexslider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.imagezoom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/client.log" afterPath="$PROJECT_DIR$/client.log" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +295,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="424">
-              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+              <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyAccessControlFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyAccessControlFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -39,8 +318,8 @@
       <file leaf-file-name="MyShiroRealm2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="351">
+              <caret line="41" column="74" lean-forward="false" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -108,11 +387,11 @@
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
         <option value="[Connection] CONSOLE - Connection" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
       </list>
     </option>
   </component>
@@ -357,6 +636,7 @@
       <recent name="org.client.com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\shengzhizhe\client\src\main\resources\static" />
       <recent name="D:\shengzhizhe\client\src\main\resources\doc" />
       <recent name="D:\shengzhizhe\client\src\main\java\org\client\com\model" />
       <recent name="D:\8cloud\wzt\src\main\java\org\client\com" />
@@ -650,7 +930,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519287017668</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="其它">
+      <created>1519287219395</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1519287219395</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -668,7 +955,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28854167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28854167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -697,7 +984,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="其它" />
     <MESSAGE value="无状态登录，利用cokie缓存token，目前后退浏览器还会自动登录，cokie无法清除" />
     <MESSAGE value="token 增加记录到数据库" />
     <MESSAGE value="改改bug" />
@@ -707,7 +993,8 @@
     <MESSAGE value="增加跨域注解" />
     <MESSAGE value="过滤器用feign将token保存至数据库" />
     <MESSAGE value="增加feign的post传参调用方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加feign的post传参调用方式" />
+    <MESSAGE value="其它" />
+    <option name="LAST_COMMIT_MESSAGE" value="其它" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,14 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
@@ -1025,18 +1304,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        <state relative-caret-position="424">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="351">
+          <caret line="41" column="74" lean-forward="false" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
           <folding />
         </state>
       </provider>
