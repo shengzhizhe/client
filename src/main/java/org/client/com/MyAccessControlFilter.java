@@ -10,6 +10,7 @@ import org.apache.shiro.web.filter.AccessControlFilter;
 import org.client.com.api.TokenInterface;
 import org.client.com.api.model.TokenModel;
 import org.client.com.util.base64.Base64Util;
+import org.client.com.util.resultJson.ResponseResult;
 import org.client.com.util.uuidUtil.GetUuid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -94,13 +95,16 @@ public class MyAccessControlFilter extends AccessControlFilter {
         TokenInterface tkInterface = Feign.builder().encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
                 .target(TokenInterface.class, "http://39.106.33.113:9002/account");
-        tkInterface.add(tokenModel);
-        Cookie cookie = new Cookie("token", StringUtils.join(split, "_"));
-        cookie.setPath("/");
-        cookie.setMaxAge(60);
-        HttpServletResponse httpServletResponse = (HttpServletResponse) response;
-        httpServletResponse.addCookie(cookie);
-        return true;
+        ResponseResult<TokenModel> result = tkInterface.add(tokenModel);
+        if (result.isSuccess()) {
+            Cookie cookie = new Cookie("token", StringUtils.join(split, "_"));
+            cookie.setPath("/");
+            cookie.setMaxAge(60);
+            HttpServletResponse httpServletResponse = (HttpServletResponse) response;
+            httpServletResponse.addCookie(cookie);
+            return true;
+        } else
+            return false;
     }
 
     /**
