@@ -1,11 +1,4 @@
-﻿#eureka:
-#  instance:
-#    prefer-ip-address: true
-#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-#  client:
-#    serviceUrl:
-#      defaultZone: http://localhost:9001/eureka/
-#端口
+﻿#端口
 server: 
   port: 8999
   tomcat: 
@@ -30,7 +23,6 @@ spring:
 
 #邮箱
   mail:
-#  smtp.163.com
     host: smtp.qq.com
     username: 287656156@qq.com
     password: capvszpolemibgdc
@@ -64,11 +56,6 @@ logging:
 page:
   pageSize: 15
   
-#全局上传下载读取img路径设置
-imgPath: D:\\work\\
-#全局图片格式-多个用,(英文)隔开
-imgType: jpg,png
-
 #全局上传下载读取文件路径设置
 filesPath: D:\\file\\
 #全局文件格式-多个用,(英文)隔开

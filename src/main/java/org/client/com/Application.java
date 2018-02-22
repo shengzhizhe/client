@@ -35,8 +35,7 @@ public class Application {
     public AccountInterface anInterface() {
         AccountInterface accountInterface = Feign.builder().encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
-//                .target(AccountInterface.class, "http://39.106.33.113:9002/account");
-                .target(AccountInterface.class, "http://localhost:9003");
+                .target(AccountInterface.class, "http://39.106.33.113:9002/account");
         return accountInterface;
     }
 
