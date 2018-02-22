@@ -14,8 +14,8 @@ public interface TokenInterface {
     ResponseResult<TokenModel> add(@Param("model") TokenModel model);
 
     @RequestLine("PATCH /token/token")
-    ResponseResult<TokenModel> updateByToken(@Param("token") String token, @Param("use") String use);
+    ResponseResult<TokenModel> updateByToken(@Param("token") String token);
 
-    @RequestLine("GET /token/{account}")
-    ResponseResult<TokenModel> getByAccount(@PathVariable("account") String account);
+    @RequestLine("GET /token/{token}")
+    ResponseResult<TokenModel> getByToken(@PathVariable("token") String token);
 }

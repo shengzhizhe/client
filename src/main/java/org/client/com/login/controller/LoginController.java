@@ -1,16 +1,16 @@
 package org.client.com.login.controller;
 
-import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.session.SessionException;
 import org.apache.shiro.subject.Subject;
 import org.client.com.MyUsernamePasswordToken;
 import org.client.com.api.AccountInterface;
 import org.client.com.api.TokenInterface;
+import org.client.com.api.model.TokenModel;
 import org.client.com.login.model.LoginModel;
-import org.client.com.util.algorithm.Algorithm;
 import org.client.com.util.base64.Base64Util;
 import org.client.com.util.redirect.RedirectUtil;
+import org.client.com.util.resultJson.ResponseResult;
 import org.client.com.util.uuidUtil.GetUuid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -61,36 +61,24 @@ public class LoginController {
             subject.login(token);
             log.info("获取令牌成功");
 //        生成新的token
-//        账号，新uuid（密钥），过期时间，所有者
-            String account = model.getUsername();
-            String tokens = GetUuid.getUUID();
-            String type = "user";
             long times = System.currentTimeMillis() + (1000 * 60 * 15);
-            String author = Algorithm.en("The survival of the dead " + times);
-//单独加密
-            tokens = Base64Util.encode(tokens);
-            account = Base64Util.encode(account);
-            author = Base64Util.encode(author);
-            type = Base64Util.encode(type);
-            String endTimes = Base64Util.encode(times + "");
-
-            String token_str = tokens + "_" + account + "_" + author + "_" + type + "_" + endTimes;
-//            令牌存入数据库
-//            TokenModel tokenModel = new TokenModel();
-//            tokenModel.setAccount(account);
-//            tokenModel.setEndTimes(System.currentTimeMillis() + (1000 * 60 * 15));
-//            tokenModel.setIsUse("Y");
-//            tokenModel.setToken(tokens);
-//            ResponseResult<TokenModel> result1 = tkInterface.add(tokenModel);
-//            if (!result1.isSuccess()) {
-//                response.setHeader("message", "令牌出错");
-//                return new ModelAndView(redirectUtil.getRedirect() + "/index");
-//            }
-            Cookie cookie = new Cookie("token", token_str);
-            cookie.setPath("/");
-            cookie.setMaxAge(60);
-            response.addCookie(cookie);
-            return new ModelAndView(redirectUtil.getRedirect() + "/home/init");
+            TokenModel tokenModel = new TokenModel();
+            tokenModel.setToken(GetUuid.getUUID());
+            tokenModel.setIsUse("N");
+            tokenModel.setEndTimes(times);
+            tokenModel.setAccount(model.getUsername());
+            tokenModel.setUuid(GetUuid.getUUID());
+            ResponseResult<TokenModel> result1 = tkInterface.add(tokenModel);
+            if (result1.isSuccess()) {
+                Cookie cookie = new Cookie("token", tokenModel.getToken());
+                cookie.setPath("/");
+                cookie.setMaxAge(60);
+                response.addCookie(cookie);
+                return new ModelAndView(redirectUtil.getRedirect() + "/home/init");
+            } else {
+                response.setHeader("message", "令牌出错");
+                return new ModelAndView(redirectUtil.getRedirect() + "/index");
+            }
         } catch (Exception e) {
             log.info("获取令牌失败");
             log.info(e.getMessage());
@@ -113,11 +101,10 @@ public class LoginController {
                 }
             }
             if (token_str != null && !token_str.isEmpty()) {
-                String[] split = token_str.split("_");
-                split[split.length - 1] = Base64Util.encode(System.currentTimeMillis() + "");
-                Cookie cookie = new Cookie("token", StringUtils.join(split, "_"));
+                ResponseResult<TokenModel> result = tkInterface.updateByToken(token_str);
+                Cookie cookie = new Cookie("token", null);
                 cookie.setPath("/");
-                cookie.setMaxAge(60);
+                cookie.setMaxAge(0);
                 response.addCookie(cookie);
             }
             Subject subject = SecurityUtils.getSubject();
@@ -130,26 +117,6 @@ public class LoginController {
         } catch (SessionException e) {
             e.printStackTrace();
         }
-    }
-
-    // 跳转忘记密码
-    @GetMapping("/toForgot")
-    public ModelAndView toForgot() {
-        return new ModelAndView("/pwd").addObject("xgmmModel", new LoginModel());
-    }
-
-    //密码找回
-    @PostMapping("/forgot")
-    public ModelAndView forgot(@Valid @ModelAttribute("xgmmModel") LoginModel model,
-                               BindingResult result) {
-        // 表单验证
-        if (result.hasErrors()) {
-            return new ModelAndView("/pwd").addObject("xgmmModel", model)
-                    .addObject("errortextzhmm",
-                            result.getFieldError().getDefaultMessage());
-        }
-
-        return null;
     }
 
 }

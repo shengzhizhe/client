@@ -3,13 +3,11 @@ package org.client.com;
 import feign.Feign;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
-import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.AccessControlFilter;
 import org.client.com.api.TokenInterface;
 import org.client.com.api.model.TokenModel;
-import org.client.com.util.base64.Base64Util;
 import org.client.com.util.resultJson.ResponseResult;
 import org.client.com.util.uuidUtil.GetUuid;
 import org.slf4j.Logger;
@@ -68,8 +66,7 @@ public class MyAccessControlFilter extends AccessControlFilter {
             }
         }
 //验证用户和令牌的有效性(此处应该根据uuid取缓存数据然后判断令牌时候有效)
-        String tk = GetUuid.getUUID();
-        MyUsernamePasswordToken token = new MyUsernamePasswordToken("", Base64Util.decode(token_str.split("_")[3]), token_str);
+        MyUsernamePasswordToken token = new MyUsernamePasswordToken("", "user", token_str);
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(token);
@@ -80,31 +77,34 @@ public class MyAccessControlFilter extends AccessControlFilter {
             return false;
         }
         log.info("令牌验证成功");
-        String[] split = token_str.split("_");
-        split[split.length - 1] = Base64Util.encode(System.currentTimeMillis() + "");
-//        新的token
-        token_str = StringUtils.join(split, "_");
-//        保存进库
-        TokenModel tokenModel = new TokenModel();
-        tokenModel.setAccount("account");
-        tokenModel.setEndTimes(System.currentTimeMillis());
-        tokenModel.setIsUse("Y");
-        tokenModel.setToken(token_str);
-        tokenModel.setUuid(GetUuid.getUUID());
-//        本过滤器在spring加载bean之前执行，所以直接调用feign
+        //        本过滤器在spring加载bean之前执行，所以直接调用feign
         TokenInterface tkInterface = Feign.builder().encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
                 .target(TokenInterface.class, "http://39.106.33.113:9002/account");
-        ResponseResult<TokenModel> result = tkInterface.add(tokenModel);
-        if (result.isSuccess()) {
-            Cookie cookie = new Cookie("token", StringUtils.join(split, "_"));
-            cookie.setPath("/");
-            cookie.setMaxAge(60);
-            HttpServletResponse httpServletResponse = (HttpServletResponse) response;
-            httpServletResponse.addCookie(cookie);
-            return true;
-        } else
+//        废弃原有令牌
+        ResponseResult<TokenModel> result1 = tkInterface.updateByToken(token_str);
+        if (result1.isSuccess()) {
+//        新的token
+//        保存进库
+            TokenModel tokenModel = new TokenModel();
+            tokenModel.setAccount("account");
+            tokenModel.setEndTimes(System.currentTimeMillis());
+            tokenModel.setIsUse("N");
+            tokenModel.setToken(token_str);
+            tokenModel.setUuid(GetUuid.getUUID());
+            ResponseResult<TokenModel> result = tkInterface.add(tokenModel);
+            if (result.isSuccess()) {
+                Cookie cookie = new Cookie("token", tokenModel.getToken());
+                cookie.setPath("/");
+                cookie.setMaxAge(60);
+                HttpServletResponse httpServletResponse = (HttpServletResponse) response;
+                httpServletResponse.addCookie(cookie);
+                return true;
+            } else
+                return false;
+        } else {
             return false;
+        }
     }
 
     /**
