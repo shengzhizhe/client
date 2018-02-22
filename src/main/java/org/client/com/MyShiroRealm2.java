@@ -41,11 +41,14 @@ public class MyShiroRealm2 extends AuthorizingRealm {
         if (result.isSuccess()) {
 //            如果token存在判断是否过期
             long now_times = System.currentTimeMillis();
-            if (result.getData().getEndTimes() <= 0 || result.getData().getEndTimes() < now_times) {
-//                密钥过期
-                //请从新登录;
+            if (result.getData().getEndTimes() <= 0 || result.getData().getEndTimes() < now_times)
+//                密钥过期,请从新登录;
                 throw new UnknownAccountException();
-            }
+
+//            判断是否是作废的令牌
+            if (result.getData().getIsUse().equals("Y"))
+//                令牌已作废
+                throw new UnknownAccountException();
             myToken.setUsername(result.getData().getAccount());
             return new SimpleAuthenticationInfo(
                     myToken,
@@ -53,10 +56,16 @@ public class MyShiroRealm2 extends AuthorizingRealm {
                     getName()
             );
         } else {
-            //请从新登录;
-            throw new UnknownAccountException();
+            if (myToken.getUsername() != null && !myToken.getUsername().isEmpty()) {
+                return new SimpleAuthenticationInfo(
+                        myToken,
+                        myToken.getSignature(),
+                        getName()
+                );
+            } else
+                //请从新登录;
+                throw new UnknownAccountException();
         }
-
     }
 
     //授权

@@ -70,7 +70,7 @@ public class ShiroConfiguration {
 
         //我做的是无状态的，这里的东西实际上是用不到的，仅供参考
         //配置退出 过滤器,其中的具体的退出代码Shiro已经替我们实现了
-        filterChainDefinitionMap.put("/logout", "logout");
+//        filterChainDefinitionMap.put("/logout", "logout");
 
         filterChainDefinitionMap.put("/", "anon");
         filterChainDefinitionMap.put("/**/**.css", "anon");

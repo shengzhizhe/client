@@ -88,8 +88,9 @@ public class LoginController {
     }
 
     @GetMapping("/logout")
-    public void logout(HttpServletRequest request,
-                       HttpServletResponse response) {
+    public ModelAndView logout(HttpServletRequest request,
+                               HttpServletResponse response) {
+        RedirectUtil redirectUtil = new RedirectUtil();
         try {
             HttpServletRequest httpServletRequest = (HttpServletRequest) request;
             Cookie[] cookies = httpServletRequest.getCookies();
@@ -101,7 +102,7 @@ public class LoginController {
                 }
             }
             if (token_str != null && !token_str.isEmpty()) {
-                ResponseResult<TokenModel> result = tkInterface.updateByToken(token_str);
+                ResponseResult<TokenModel> result = tkInterface.updateToken(token_str);
                 Cookie cookie = new Cookie("token", null);
                 cookie.setPath("/");
                 cookie.setMaxAge(0);
@@ -117,6 +118,7 @@ public class LoginController {
         } catch (SessionException e) {
             e.printStackTrace();
         }
+        return new ModelAndView(redirectUtil.getRedirect() + "/index");
     }
 
 }

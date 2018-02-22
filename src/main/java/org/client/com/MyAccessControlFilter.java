@@ -66,7 +66,7 @@ public class MyAccessControlFilter extends AccessControlFilter {
             }
         }
 //验证用户和令牌的有效性(此处应该根据uuid取缓存数据然后判断令牌时候有效)
-        MyUsernamePasswordToken token = new MyUsernamePasswordToken("", "user", token_str);
+        MyUsernamePasswordToken token = new MyUsernamePasswordToken(null, "user", token_str);
         Subject subject = SecurityUtils.getSubject();
         try {
             subject.login(token);
@@ -80,9 +80,10 @@ public class MyAccessControlFilter extends AccessControlFilter {
         //        本过滤器在spring加载bean之前执行，所以直接调用feign
         TokenInterface tkInterface = Feign.builder().encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
-                .target(TokenInterface.class, "http://39.106.33.113:9002/account");
+//                .target(TokenInterface.class, "http://39.106.33.113:9002/account");
+                .target(TokenInterface.class, "http://localhost:9003");
 //        废弃原有令牌
-        ResponseResult<TokenModel> result1 = tkInterface.updateByToken(token_str);
+        ResponseResult<TokenModel> result1 = tkInterface.updateToken(token_str);
         if (result1.isSuccess()) {
 //        新的token
 //        保存进库
@@ -90,7 +91,7 @@ public class MyAccessControlFilter extends AccessControlFilter {
             tokenModel.setAccount("account");
             tokenModel.setEndTimes(System.currentTimeMillis());
             tokenModel.setIsUse("N");
-            tokenModel.setToken(token_str);
+            tokenModel.setToken(GetUuid.getUUID());
             tokenModel.setUuid(GetUuid.getUUID());
             ResponseResult<TokenModel> result = tkInterface.add(tokenModel);
             if (result.isSuccess()) {
