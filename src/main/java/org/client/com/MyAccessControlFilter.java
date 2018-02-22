@@ -87,7 +87,7 @@ public class MyAccessControlFilter extends AccessControlFilter {
 //        新的token
 //        保存进库
             TokenModel tokenModel = new TokenModel();
-            tokenModel.setAccount("account");
+//            tokenModel.setAccount("account");
             tokenModel.setEndTimes(System.currentTimeMillis() * (1000 * 60 * 5));
             tokenModel.setIsUse("N");
             tokenModel.setToken(GetUuid.getUUID());
