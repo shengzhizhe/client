@@ -1,9 +1,14 @@
 package org.client.com;
 
+import feign.Feign;
+import feign.jackson.JacksonDecoder;
+import feign.jackson.JacksonEncoder;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.AccessControlFilter;
+import org.client.com.api.TokenInterface;
+import org.client.com.api.model.TokenModel;
 import org.client.com.util.base64.Base64Util;
 import org.client.com.util.uuidUtil.GetUuid;
 import org.slf4j.Logger;
@@ -76,6 +81,20 @@ public class MyAccessControlFilter extends AccessControlFilter {
         log.info("令牌验证成功");
         String[] split = token_str.split("_");
         split[split.length - 1] = Base64Util.encode(System.currentTimeMillis() + "");
+//        新的token
+        token_str = StringUtils.join(split, "_");
+//        保存进库
+        TokenModel tokenModel = new TokenModel();
+        tokenModel.setAccount("account");
+        tokenModel.setEndTimes(System.currentTimeMillis());
+        tokenModel.setIsUse("Y");
+        tokenModel.setToken(token_str);
+        tokenModel.setUuid(GetUuid.getUUID());
+//        本过滤器在spring加载bean之前执行，所以直接调用feign
+        TokenInterface tkInterface = Feign.builder().encoder(new JacksonEncoder())
+                .decoder(new JacksonDecoder())
+                .target(TokenInterface.class, "http://39.106.33.113:9002/account");
+        tkInterface.add(tokenModel);
         Cookie cookie = new Cookie("token", StringUtils.join(split, "_"));
         cookie.setPath("/");
         cookie.setMaxAge(60);
