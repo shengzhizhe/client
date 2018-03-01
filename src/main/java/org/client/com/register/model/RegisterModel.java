@@ -27,8 +27,8 @@ public class RegisterModel implements Serializable {
     @Size(min = 8, max = 16, message = "第二次密码长度为8-16")
     private String password2;
 
-    @NotBlank(message = "验证码不能为空")
-    @Size(min = 8, max = 16, message = "验证码长度为8-16")
+//    @NotBlank(message = "验证码不能为空")
+//    @Size(min = 8, max = 16, message = "验证码长度为8-16")
     private String yzm;
 
     private boolean pass;

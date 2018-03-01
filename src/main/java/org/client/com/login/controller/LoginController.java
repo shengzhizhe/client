@@ -16,10 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.Cookie;
@@ -39,6 +36,11 @@ public class LoginController {
     private AccountInterface loginInterface;
     @Autowired
     private TokenInterface tkInterface;
+
+    @GetMapping("/tologin")
+    public ModelAndView tologin(){
+        return new ModelAndView("/login/login");
+    }
 
     /**
      * @param model  LoginModel
@@ -74,7 +76,7 @@ public class LoginController {
                 cookie.setPath("/");
                 cookie.setMaxAge(60);
                 response.addCookie(cookie);
-                return new ModelAndView(redirectUtil.getRedirect() + "/home/init");
+                return new ModelAndView(redirectUtil.getRedirect() + "/home/init?name="+model.getUsername());
             } else {
                 response.setHeader("message", "令牌出错");
                 return new ModelAndView(redirectUtil.getRedirect() + "/index");
@@ -83,7 +85,7 @@ public class LoginController {
             log.info("获取令牌失败");
             log.info(e.getMessage());
             response.setHeader("message", "账号或密码错误");
-            return new ModelAndView(redirectUtil.getRedirect() + "/index");
+            return new ModelAndView(redirectUtil.getRedirect() + "/login");
         }
     }
 
