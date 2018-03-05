@@ -91,10 +91,10 @@
         <div class="nav-cont">
             <ul>
                 <li class="index"><a href="#">首页</a></li>
-                <li class="qc"><a href="#">闪购</a></li>
-                <li class="qc"><a href="#">限时抢</a></li>
+                <!--<li class="qc"><a href="#">闪购</a></li>-->
+                <!--<li class="qc"><a href="#">限时抢</a></li>-->
                 <li class="qc"><a href="#">团购</a></li>
-                <li class="qc last"><a href="#">大包装</a></li>
+                <!--<li class="qc last"><a href="#">大包装</a></li>-->
             </ul>
             <div class="nav-extra">
                 <i class="am-icon-user-secret am-icon-md nav-user"></i><b></b>我的福利
@@ -121,7 +121,7 @@
                                                 <div class="sort-side">
                                                     <dl class="dl-sort">
                                                         <dt><span title="蛋糕">蛋糕</span></dt>
-                                                        <dd><a title="蒸蛋糕" href="#"><span>蒸蛋糕</span></a></dd>
+                                                        <dd><a title="蒸蛋糕" th:href="@{/search/init(name=${username})}"><span>蒸蛋糕</span></a></dd>
                                                         <dd><a title="脱水蛋糕" href="#"><span>脱水蛋糕</span></a></dd>
                                                         <dd><a title="瑞士卷" href="#"><span>瑞士卷</span></a></dd>
                                                         <dd><a title="软面包" href="#"><span>软面包</span></a></dd>
@@ -732,24 +732,7 @@
         </div>
 
 
-        <!--轮播-->
 
-        <script type="text/javascript">
-							(function() {
-								$('.am-slider').flexslider();
-							});
-							$(document).ready(function() {
-								$("li").hover(function() {
-									$(".category-content .category-list li.first .menu-in").css("display", "none");
-									$(".category-content .category-list li.first").removeClass("hover");
-									$(this).addClass("hover");
-									$(this).children("div.menu-in").css("display", "block")
-								}, function() {
-									$(this).removeClass("hover")
-									$(this).children("div.menu-in").css("display", "none")
-								});
-							})
-        </script>
         <!--小导航 -->
         <div class="am-g am-g-fixed smallnav">
             <div class="am-u-sm-3">
@@ -2440,6 +2423,26 @@
 <script th:src="@{/assets/js/jquery.min.js}"></script>
 <script th:src="@{/assets/js/amazeui.min.js}"></script>
 <script type="text/javascript " th:src="@{/basic/js/quick_links.js}"></script>
+<!--轮播-->
+
+<script th:inline="javascript">
+/*<![CDATA[*/
+							(function() {
+								$('.am-slider').flexslider();
+							});
+							$(document).ready(function() {
+								$("li").hover(function() {
+									$(".category-content .category-list li.first .menu-in").css("display", "none");
+									$(".category-content .category-list li.first").removeClass("hover");
+									$(this).addClass("hover");
+									$(this).children("div.menu-in").css("display", "block")
+								}, function() {
+									$(this).removeClass("hover")
+									$(this).children("div.menu-in").css("display", "none")
+								});
+							})
+/*]]>*/
+</script>
 </body>
 
 </html>
