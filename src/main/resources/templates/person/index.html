@@ -129,7 +129,7 @@
 										</a>
 									</p>
 									<p class="m-coupon">
-										<a th:href="@{/coupon.html}">
+										<a th:href="@{/coupon/init(name=${username})}">
 											<i><img th:src="@{/../images/coupon.png}"/></i>
 											<span class="m-title">优惠券</span>
 											<em class="m-num">2</em>
@@ -503,16 +503,16 @@
 					<li class="person">
 						<a href="#">个人资料</a>
 						<ul>
-							<li> <a th:href="@{/information.html}">个人信息</a></li>
-							<li> <a th:href="@{/safety.html}">安全设置</a></li>
-							<li> <a th:href="@{/address.html}">收货地址</a></li>
+							<li> <a th:href="@{/perinformation/init}">个人信息</a></li>
+							<li> <a th:href="@{/safety/init}">安全设置</a></li>
+							<li> <a th:href="@{/address/init}">收货地址</a></li>
 						</ul>
 					</li>
 					<li class="person">
 						<a href="#">我的交易</a>
 						<ul>
-							<li><a th:href="@{/order.html}">订单管理</a></li>
-							<li> <a th:href="@{/change.html}">退款售后</a></li>
+							<li><a th:href="@{/order/init}">订单管理</a></li>
+							<li> <a th:href="@{/change/init}">退款售后</a></li>
 						</ul>
 					</li>
 					<li class="person">
