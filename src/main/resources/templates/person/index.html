@@ -518,9 +518,9 @@
 					<li class="person">
 						<a href="#">我的资产</a>
 						<ul>
-							<li> <a th:href="@{/coupon.html}">优惠券 </a></li>
-							<li> <a th:href="@{/bonus.html}">红包</a></li>
-							<li> <a th:href="@{/bill.html}">账单明细</a></li>
+							<li> <a th:href="@{/coupon/init(name=${username})}">优惠券 </a></li>
+							<li> <a th:href="@{/bonus/init(name=${username})}">红包</a></li>
+							<li> <a th:href="@{/bill/init}">账单明细</a></li>
 						</ul>
 					</li>
 
@@ -530,7 +530,7 @@
 							<!--<li> <a th:href="@{/collection.html}">收藏</a></li>-->
 							<!--<li> <a th:href="@{/foot.html}">足迹</a></li>-->
 							<!--<li> <a th:href="@{/comment.html}">评价</a></li>-->
-							<li> <a th:href="@{/news.html}">消息</a></li>
+							<li> <a th:href="@{/news/init}">消息</a></li>
 						</ul>
 					</li>
 
