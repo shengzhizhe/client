@@ -29,7 +29,7 @@ public class EmailController {
     @RequestMapping(value = "/toemail")
     public ResponseResult regitEmail(@RequestParam("title") String title, @RequestParam("toUser") String toUser) {
         EmailUtil emailUtil = new EmailUtil();
-        boolean b = emailUtil.toEmail(mailSender, title, "您本次验证码为<span style='red'>123</span>", forEmail, toUser);
+        boolean b = emailUtil.toEmail(mailSender, title, "您本次验证码为<span style='color:red;'>123</span>", forEmail, toUser);
         result.setSuccess(b);
         return result;
     }
