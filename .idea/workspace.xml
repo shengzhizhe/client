@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc79cac7-29dd-46fb-93bd-8ac1a7738122" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Login2Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login2Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/api/controller/Login2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="205">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +109,6 @@
         <option value="[Connection] CONSOLE - Connection" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/api/TokenInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm2.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyAccessControlFilter.java" />
@@ -117,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/home/success.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/email/controller/EmailController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/Application.java" />
       </list>
     </option>
   </component>
@@ -659,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520473967220</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="更改端口为8998">
+      <created>1520480554697</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1520480554697</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -721,7 +738,8 @@
     <MESSAGE value="进入列表页" />
     <MESSAGE value="更改熔断器时间" />
     <MESSAGE value="更改邮件验证码颜色" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改邮件验证码颜色" />
+    <MESSAGE value="更改端口为8998" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改端口为8998" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1033,14 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1051,11 +1061,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/api/controller/Login2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="205">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

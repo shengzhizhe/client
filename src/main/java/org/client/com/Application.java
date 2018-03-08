@@ -9,7 +9,6 @@ import org.client.com.util.resultJson.ResponseResult;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
  * Spring Boot 应用启动类
@@ -17,8 +16,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
  * Created by bysocket on 16/4/26.
  */
 @SpringBootApplication
-//最简单的跨域，但是要求spring4+
-@CrossOrigin(origins = "*", maxAge = 600)
 public class Application {
 //        extends SpringBootServletInitializer {
 
