@@ -45,7 +45,8 @@ feign:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 5000
+#          单位 ms
+            timeoutInMilliseconds: 1000*10
 # 日志级别
 error: true
 logging:
